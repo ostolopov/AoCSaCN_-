@@ -1,4 +1,4 @@
-Number of objects: 400
+Number of objects: 500
 
 Initial data:
 Rectangle 73, 58, 104, 81 red
@@ -401,6 +401,106 @@ Triangle 74, 40, 76, 89, 4, 18 yellow
 Triangle 66, 62, 74, 98, 21, 27 blue
 Triangle 41, 9, 58, 35, 65, 61 indigo
 Rectangle 72, 19, 117, 23 red
+Circle 16, 4, 34 green
+Triangle 11, 44, 8, 59, 5, 72 red
+Circle 15, 29, 14 indigo
+Rectangle 9, 5, 44, 55 green
+Circle 83, 48, 36 blue
+Triangle 80, 89, 63, 33, 66, 85 green
+Circle 42, 74, 42 red
+Rectangle 3, 98, 17, 110 violet
+Circle 89, 97, 30 blue
+Triangle 60, 31, 65, 11, 13, 96 blue
+Rectangle 23, 88, 46, 109 yellow
+Rectangle 77, 72, 90, 103 orange
+Circle 41, 18, 26 green
+Circle 63, 81, 9 indigo
+Triangle 52, 51, 61, 95, 17, 29 blue
+Rectangle 86, 60, 93, 103 orange
+Triangle 11, 84, 70, 13, 70, 8 orange
+Circle 57, 45, 48 blue
+Rectangle 2, 83, 20, 103 yellow
+Triangle 29, 99, 18, 18, 5, 15 yellow
+Circle 29, 24, 16 indigo
+Triangle 96, 60, 78, 79, 71, 24 green
+Triangle 77, 58, 54, 15, 8, 21 violet
+Circle 52, 95, 12 yellow
+Circle 82, 10, 33 violet
+Circle 60, 35, 21 green
+Rectangle 5, 8, 33, 33 violet
+Triangle 44, 16, 24, 81, 61, 85 yellow
+Rectangle 7, 22, 21, 68 red
+Rectangle 98, 57, 99, 64 indigo
+Rectangle 99, 10, 124, 56 blue
+Rectangle 47, 81, 91, 102 violet
+Triangle 76, 24, 53, 64, 87, 95 orange
+Triangle 6, 5, 31, 78, 49, 30 orange
+Circle 32, 74, 35 yellow
+Rectangle 11, 88, 26, 127 red
+Circle 62, 58, 17 green
+Circle 92, 77, 30 orange
+Circle 51, 27, 22 green
+Circle 64, 77, 37 blue
+Rectangle 84, 55, 110, 65 green
+Rectangle 99, 72, 124, 113 indigo
+Circle 22, 21, 11 red
+Rectangle 93, 17, 95, 33 red
+Circle 32, 88, 16 indigo
+Circle 10, 19, 11 red
+Rectangle 36, 48, 45, 49 violet
+Triangle 37, 32, 94, 93, 10, 11 green
+Rectangle 7, 53, 32, 68 green
+Circle 14, 69, 40 green
+Rectangle 95, 48, 113, 62 red
+Triangle 53, 70, 83, 56, 68, 26 orange
+Circle 37, 99, 22 blue
+Triangle 41, 58, 35, 88, 71, 73 red
+Circle 92, 93, 3 red
+Rectangle 28, 3, 77, 21 green
+Triangle 46, 43, 65, 88, 11, 66 red
+Rectangle 4, 67, 12, 90 red
+Circle 3, 20, 28 red
+Triangle 5, 29, 42, 16, 88, 50 yellow
+Rectangle 73, 45, 121, 61 blue
+Circle 86, 28, 18 orange
+Circle 26, 96, 12 blue
+Circle 42, 90, 48 red
+Circle 43, 44, 3 orange
+Rectangle 72, 87, 80, 103 yellow
+Circle 82, 77, 45 yellow
+Circle 35, 1, 40 green
+Rectangle 64, 91, 73, 101 violet
+Rectangle 27, 52, 61, 61 blue
+Triangle 99, 69, 30, 81, 76, 13 blue
+Triangle 98, 69, 15, 80, 47, 27 green
+Circle 86, 64, 48 indigo
+Triangle 27, 2, 31, 79, 57, 46 green
+Circle 38, 41, 43 red
+Rectangle 69, 11, 78, 14 yellow
+Rectangle 80, 36, 83, 51 yellow
+Rectangle 87, 40, 96, 46 violet
+Rectangle 14, 1, 30, 51 green
+Rectangle 90, 43, 123, 76 violet
+Rectangle 84, 61, 89, 94 red
+Circle 24, 56, 15 green
+Triangle 8, 4, 87, 35, 32, 36 orange
+Rectangle 64, 54, 93, 88 indigo
+Circle 44, 70, 33 violet
+Rectangle 79, 64, 85, 91 indigo
+Rectangle 20, 90, 22, 115 blue
+Circle 2, 10, 5 yellow
+Rectangle 64, 28, 92, 30 green
+Rectangle 44, 85, 64, 109 blue
+Circle 78, 27, 20 orange
+Rectangle 37, 57, 58, 97 yellow
+Circle 83, 2, 42 red
+Rectangle 87, 88, 95, 122 blue
+Triangle 3, 32, 27, 50, 85, 70 violet
+Circle 65, 74, 18 red
+Triangle 0, 34, 91, 57, 19, 45 violet
+Rectangle 79, 69, 98, 100 green
+Rectangle 57, 90, 76, 99 orange
+Triangle 52, 17, 93, 11, 41, 31 green
 
 Sorted data:
 Circle 36, 20, 50 blue Area: 7853.98
@@ -409,6 +509,9 @@ Circle 0, 95, 50 red Area: 7853.98
 Circle 85, 16, 49 indigo Area: 7542.96
 Circle 3, 21, 48 red Area: 7238.23
 Circle 63, 51, 48 orange Area: 7238.23
+Circle 57, 45, 48 blue Area: 7238.23
+Circle 42, 90, 48 red Area: 7238.23
+Circle 86, 64, 48 indigo Area: 7238.23
 Circle 70, 17, 47 green Area: 6939.78
 Circle 82, 79, 47 violet Area: 6939.78
 Circle 26, 12, 46 blue Area: 6647.61
@@ -416,15 +519,21 @@ Circle 6, 90, 46 blue Area: 6647.61
 Circle 69, 15, 45 violet Area: 6361.73
 Circle 72, 60, 45 red Area: 6361.73
 Circle 81, 26, 45 indigo Area: 6361.73
+Circle 82, 77, 45 yellow Area: 6361.73
 Circle 44, 28, 44 yellow Area: 6082.12
 Circle 22, 60, 44 orange Area: 6082.12
 Circle 39, 2, 44 blue Area: 6082.12
 Circle 54, 57, 44 red Area: 6082.12
 Circle 59, 54, 43 orange Area: 5808.8
 Circle 0, 43, 43 orange Area: 5808.8
+Circle 38, 41, 43 red Area: 5808.8
+Circle 42, 74, 42 red Area: 5541.77
+Circle 83, 2, 42 red Area: 5541.77
 Circle 23, 9, 41 orange Area: 5281.02
 Circle 45, 20, 41 indigo Area: 5281.02
 Circle 18, 0, 40 yellow Area: 5026.55
+Circle 14, 69, 40 green Area: 5026.55
+Circle 35, 1, 40 green Area: 5026.55
 Circle 16, 59, 39 indigo Area: 4778.36
 Circle 36, 62, 39 blue Area: 4778.36
 Circle 78, 23, 39 yellow Area: 4778.36
@@ -432,18 +541,24 @@ Circle 19, 69, 39 indigo Area: 4778.36
 Circle 98, 0, 38 indigo Area: 4536.46
 Circle 19, 94, 37 indigo Area: 4300.84
 Circle 29, 87, 37 yellow Area: 4300.84
+Circle 64, 77, 37 blue Area: 4300.84
 Circle 78, 16, 36 violet Area: 4071.5
 Circle 28, 88, 36 yellow Area: 4071.5
+Circle 83, 48, 36 blue Area: 4071.5
 Circle 27, 79, 35 indigo Area: 3848.45
 Circle 99, 16, 35 orange Area: 3848.45
 Circle 94, 23, 35 green Area: 3848.45
 Circle 82, 5, 35 indigo Area: 3848.45
+Circle 32, 74, 35 yellow Area: 3848.45
 Circle 25, 12, 34 blue Area: 3631.68
 Circle 93, 86, 34 green Area: 3631.68
 Circle 9, 90, 34 yellow Area: 3631.68
+Circle 16, 4, 34 green Area: 3631.68
 Circle 51, 62, 33 red Area: 3421.19
 Circle 28, 73, 33 green Area: 3421.19
 Circle 53, 29, 33 violet Area: 3421.19
+Circle 82, 10, 33 violet Area: 3421.19
+Circle 44, 70, 33 violet Area: 3421.19
 Circle 39, 74, 32 blue Area: 3216.99
 Circle 25, 19, 32 violet Area: 3216.99
 Circle 54, 8, 32 blue Area: 3216.99
@@ -452,6 +567,8 @@ Circle 80, 31, 31 yellow Area: 3019.07
 Circle 72, 1, 31 yellow Area: 3019.07
 Circle 48, 62, 30 red Area: 2827.43
 Circle 48, 53, 30 yellow Area: 2827.43
+Circle 89, 97, 30 blue Area: 2827.43
+Circle 92, 77, 30 orange Area: 2827.43
 Triangle 72, 1, 87, 79, 8, 37 blue Area: 2766
 Triangle 3, 86, 43, 27, 85, 98 orange Area: 2659
 Circle 57, 76, 29 orange Area: 2642.08
@@ -460,6 +577,7 @@ Circle 15, 59, 29 green Area: 2642.08
 Circle 32, 59, 28 indigo Area: 2463.01
 Circle 24, 31, 28 violet Area: 2463.01
 Circle 79, 94, 28 indigo Area: 2463.01
+Circle 3, 20, 28 red Area: 2463.01
 Rectangle 63, 0, 113, 48 orange Area: 2400
 Triangle 12, 17, 32, 82, 97, 59 orange Area: 2342.5
 Rectangle 8, 97, 58, 143 violet Area: 2300
@@ -469,7 +587,10 @@ Triangle 86, 96, 85, 24, 22, 63 yellow Area: 2287.5
 Rectangle 6, 72, 55, 118 indigo Area: 2254
 Circle 81, 86, 26 indigo Area: 2123.72
 Circle 53, 53, 26 red Area: 2123.72
+Circle 41, 18, 26 green Area: 2123.72
 Rectangle 0, 70, 49, 113 red Area: 2107
+Triangle 99, 69, 30, 81, 76, 13 blue Area: 2070
+Triangle 98, 69, 15, 80, 47, 27 green Area: 2023.5
 Triangle 97, 89, 46, 90, 11, 12 violet Area: 2006.5
 Triangle 86, 36, 10, 62, 73, 93 blue Area: 1997
 Triangle 57, 94, 8, 95, 68, 13 violet Area: 1979
@@ -483,6 +604,7 @@ Triangle 62, 66, 6, 8, 7, 73 green Area: 1791
 Triangle 6, 67, 14, 10, 70, 58 indigo Area: 1788
 Rectangle 20, 75, 57, 123 red Area: 1776
 Rectangle 94, 63, 133, 108 violet Area: 1755
+Rectangle 9, 5, 44, 55 green Area: 1750
 Rectangle 59, 23, 107, 59 violet Area: 1728
 Triangle 24, 4, 13, 73, 62, 79 violet Area: 1723.5
 Rectangle 49, 47, 84, 96 green Area: 1715
@@ -500,6 +622,8 @@ Rectangle 97, 31, 136, 71 red Area: 1560
 Triangle 43, 97, 81, 65, 57, 5 indigo Area: 1524
 Circle 1, 95, 22 indigo Area: 1520.53
 Circle 93, 19, 22 indigo Area: 1520.53
+Circle 51, 27, 22 green Area: 1520.53
+Circle 37, 99, 22 blue Area: 1520.53
 Rectangle 63, 16, 94, 65 indigo Area: 1519
 Triangle 80, 81, 85, 30, 25, 36 green Area: 1515
 Rectangle 75, 3, 115, 40 orange Area: 1480
@@ -515,6 +639,7 @@ Circle 46, 69, 21 red Area: 1385.44
 Circle 37, 48, 21 violet Area: 1385.44
 Circle 2, 31, 21 indigo Area: 1385.44
 Circle 47, 19, 21 blue Area: 1385.44
+Circle 60, 35, 21 green Area: 1385.44
 Triangle 72, 39, 39, 83, 17, 30 green Area: 1358.5
 Triangle 66, 98, 85, 62, 18, 53 yellow Area: 1291.5
 Triangle 9, 13, 50, 51, 65, 2 orange Area: 1289.5
@@ -522,9 +647,12 @@ Rectangle 49, 76, 96, 103 blue Area: 1269
 Triangle 57, 19, 86, 56, 16, 54 indigo Area: 1266
 Triangle 1, 5, 80, 18, 74, 49 violet Area: 1263.5
 Triangle 76, 53, 24, 30, 66, 0 orange Area: 1263
+Triangle 6, 5, 31, 78, 49, 30 orange Area: 1257
 Circle 26, 72, 20 violet Area: 1256.64
+Circle 78, 27, 20 orange Area: 1256.64
 Triangle 97, 48, 4, 50, 50, 76 indigo Area: 1255
 Triangle 61, 81, 65, 2, 32, 32 green Area: 1243.5
+Triangle 44, 16, 24, 81, 61, 85 yellow Area: 1242.5
 Rectangle 95, 83, 141, 110 red Area: 1242
 Triangle 79, 30, 10, 80, 13, 42 red Area: 1236
 Triangle 14, 99, 66, 35, 21, 43 indigo Area: 1232
@@ -536,26 +664,36 @@ Triangle 99, 30, 21, 76, 24, 44 orange Area: 1179
 Rectangle 94, 60, 133, 90 orange Area: 1170
 Triangle 91, 57, 33, 28, 77, 10 orange Area: 1160
 Rectangle 8, 50, 33, 96 red Area: 1150
+Rectangle 99, 10, 124, 56 blue Area: 1150
 Rectangle 57, 92, 101, 118 yellow Area: 1144
 Triangle 47, 77, 62, 10, 19, 50 green Area: 1140.5
 Circle 44, 95, 19 yellow Area: 1134.11
 Circle 14, 25, 19 green Area: 1134.11
 Triangle 91, 0, 96, 20, 4, 99 blue Area: 1117.5
+Rectangle 90, 43, 123, 76 violet Area: 1089
 Rectangle 71, 79, 107, 109 yellow Area: 1080
+Triangle 27, 2, 31, 79, 57, 46 green Area: 1067
+Triangle 77, 58, 54, 15, 8, 21 violet Area: 1058
 Triangle 31, 25, 6, 79, 70, 24 yellow Area: 1040.5
+Triangle 76, 24, 53, 64, 87, 95 orange Area: 1036.5
 Triangle 96, 12, 95, 38, 16, 21 blue Area: 1035.5
 Rectangle 5, 20, 50, 43 yellow Area: 1035
 Triangle 72, 83, 81, 53, 22, 21 orange Area: 1029
+Rectangle 99, 72, 124, 113 indigo Area: 1025
 Triangle 3, 15, 29, 57, 82, 64 green Area: 1022
 Rectangle 71, 10, 101, 44 red Area: 1020
 Circle 43, 19, 18 orange Area: 1017.88
 Circle 25, 41, 18 orange Area: 1017.88
 Circle 54, 77, 18 orange Area: 1017.88
 Circle 87, 83, 18 indigo Area: 1017.88
+Circle 86, 28, 18 orange Area: 1017.88
+Circle 65, 74, 18 red Area: 1017.88
 Rectangle 35, 55, 58, 99 indigo Area: 1012
+Triangle 46, 43, 65, 88, 11, 66 red Area: 1006
 Rectangle 20, 50, 52, 81 indigo Area: 992
 Triangle 2, 33, 80, 56, 34, 17 indigo Area: 992
 Rectangle 64, 76, 102, 102 yellow Area: 988
+Rectangle 64, 54, 93, 88 indigo Area: 986
 Rectangle 51, 92, 97, 113 orange Area: 966
 Rectangle 15, 47, 46, 78 green Area: 961
 Rectangle 33, 53, 64, 84 blue Area: 961
@@ -565,32 +703,42 @@ Triangle 15, 74, 45, 73, 20, 11 green Area: 942.5
 Triangle 5, 73, 37, 69, 96, 3 violet Area: 938
 Triangle 56, 38, 51, 87, 90, 80 blue Area: 938
 Rectangle 78, 17, 102, 56 red Area: 936
+Triangle 5, 29, 42, 16, 88, 50 yellow Area: 928
 Rectangle 12, 93, 40, 126 blue Area: 924
 Rectangle 71, 38, 93, 80 blue Area: 924
+Rectangle 47, 81, 91, 102 violet Area: 924
 Rectangle 44, 69, 90, 89 red Area: 920
 Rectangle 95, 67, 129, 94 indigo Area: 918
 Rectangle 62, 61, 88, 96 violet Area: 910
 Circle 20, 44, 17 red Area: 907.92
 Circle 75, 70, 17 red Area: 907.92
 Circle 63, 37, 17 violet Area: 907.92
+Circle 62, 58, 17 green Area: 907.92
+Triangle 8, 4, 87, 35, 32, 36 orange Area: 892
 Rectangle 73, 81, 94, 123 indigo Area: 882
+Rectangle 28, 3, 77, 21 green Area: 882
 Rectangle 16, 99, 38, 139 green Area: 880
 Rectangle 25, 35, 44, 81 indigo Area: 874
 Triangle 58, 77, 97, 94, 4, 9 violet Area: 867
 Rectangle 43, 36, 62, 81 red Area: 855
+Rectangle 37, 57, 58, 97 yellow Area: 840
 Triangle 14, 5, 89, 7, 5, 27 violet Area: 834
 Rectangle 15, 37, 32, 85 yellow Area: 816
 Circle 59, 35, 16 red Area: 804.248
 Circle 17, 26, 16 red Area: 804.248
+Circle 29, 24, 16 indigo Area: 804.248
+Circle 32, 88, 16 indigo Area: 804.248
 Triangle 62, 17, 35, 52, 94, 35 violet Area: 803
 Rectangle 12, 91, 44, 116 red Area: 800
 Rectangle 22, 93, 38, 143 violet Area: 800
+Rectangle 14, 1, 30, 51 green Area: 800
 Triangle 56, 90, 52, 48, 14, 44 indigo Area: 790
 Triangle 53, 95, 71, 75, 4, 62 orange Area: 787
 Rectangle 35, 83, 84, 99 orange Area: 784
 Triangle 50, 17, 10, 54, 25, 1 violet Area: 782.5
 Rectangle 65, 45, 95, 71 indigo Area: 780
 Rectangle 5, 55, 27, 90 orange Area: 770
+Rectangle 73, 45, 121, 61 blue Area: 768
 Rectangle 27, 36, 56, 62 orange Area: 754
 Rectangle 55, 74, 78, 106 indigo Area: 736
 Rectangle 57, 23, 106, 38 indigo Area: 735
@@ -600,17 +748,21 @@ Rectangle 73, 58, 104, 81 red Area: 713
 Triangle 24, 84, 59, 99, 16, 40 violet Area: 710
 Circle 11, 78, 15 orange Area: 706.858
 Circle 96, 19, 15 yellow Area: 706.858
+Circle 24, 56, 15 green Area: 706.858
 Rectangle 89, 7, 105, 51 violet Area: 704
+Rectangle 5, 8, 33, 33 violet Area: 700
 Rectangle 61, 66, 85, 95 blue Area: 696
 Rectangle 65, 47, 88, 77 blue Area: 690
 Triangle 98, 88, 23, 5, 82, 52 green Area: 686
 Rectangle 20, 44, 39, 80 indigo Area: 684
 Triangle 44, 39, 76, 84, 52, 8 green Area: 676
 Triangle 31, 38, 57, 16, 90, 40 violet Area: 675
+Triangle 52, 51, 61, 95, 17, 29 blue Area: 671
 Triangle 66, 62, 74, 98, 21, 27 blue Area: 670
 Rectangle 57, 13, 72, 57 indigo Area: 660
 Rectangle 23, 50, 45, 80 orange Area: 660
 Rectangle 64, 32, 78, 78 blue Area: 644
+Rectangle 7, 22, 21, 68 red Area: 644
 Triangle 73, 64, 84, 92, 19, 42 green Area: 635
 Triangle 41, 10, 0, 99, 27, 71 yellow Area: 627.5
 Triangle 65, 5, 87, 40, 87, 97 blue Area: 627
@@ -618,12 +770,17 @@ Rectangle 49, 7, 69, 38 violet Area: 620
 Circle 87, 75, 14 indigo Area: 615.752
 Circle 16, 47, 14 red Area: 615.752
 Circle 82, 57, 14 orange Area: 615.752
+Circle 15, 29, 14 indigo Area: 615.752
 Triangle 84, 34, 67, 19, 15, 45 violet Area: 611
 Rectangle 36, 89, 65, 110 red Area: 609
+Rectangle 79, 69, 98, 100 green Area: 589
+Rectangle 11, 88, 26, 127 red Area: 585
 Rectangle 18, 77, 65, 89 yellow Area: 564
+Triangle 96, 60, 78, 79, 71, 24 green Area: 561.5
 Triangle 15, 91, 33, 69, 97, 53 blue Area: 560
 Triangle 96, 3, 81, 81, 94, 88 blue Area: 559.5
 Rectangle 16, 82, 59, 95 violet Area: 559
+Triangle 53, 70, 83, 56, 68, 26 orange Area: 555
 Rectangle 19, 91, 41, 116 green Area: 550
 Rectangle 6, 83, 33, 103 indigo Area: 540
 Rectangle 4, 56, 18, 94 blue Area: 532
@@ -636,13 +793,17 @@ Triangle 42, 87, 3, 27, 29, 40 red Area: 526.5
 Rectangle 45, 33, 58, 73 yellow Area: 520
 Triangle 72, 1, 9, 21, 86, 13 yellow Area: 518
 Rectangle 51, 59, 85, 74 red Area: 510
+Triangle 29, 99, 18, 18, 5, 15 yellow Area: 510
 Rectangle 32, 22, 44, 64 green Area: 504
 Triangle 74, 35, 31, 72, 28, 98 orange Area: 503.5
+Triangle 41, 58, 35, 88, 71, 73 red Area: 495
 Triangle 71, 32, 59, 56, 45, 2 blue Area: 492
 Triangle 44, 18, 18, 34, 25, 67 violet Area: 485
 Triangle 78, 0, 94, 7, 56, 51 green Area: 485
 Rectangle 90, 66, 101, 110 blue Area: 484
+Rectangle 23, 88, 46, 109 yellow Area: 483
 Rectangle 40, 56, 50, 104 yellow Area: 480
+Rectangle 44, 85, 64, 109 blue Area: 480
 Rectangle 62, 45, 79, 73 blue Area: 476
 Triangle 29, 53, 83, 47, 7, 73 green Area: 474
 Triangle 71, 64, 60, 98, 51, 40 violet Area: 472
@@ -655,6 +816,8 @@ Circle 5, 43, 12 blue Area: 452.389
 Circle 78, 13, 12 violet Area: 452.389
 Circle 57, 32, 12 orange Area: 452.389
 Circle 74, 23, 12 indigo Area: 452.389
+Circle 52, 95, 12 yellow Area: 452.389
+Circle 26, 96, 12 blue Area: 452.389
 Rectangle 77, 34, 95, 59 indigo Area: 450
 Triangle 15, 36, 91, 47, 69, 32 blue Area: 449
 Triangle 86, 22, 29, 86, 49, 79 violet Area: 440.5
@@ -663,6 +826,7 @@ Rectangle 83, 81, 131, 90 red Area: 432
 Triangle 19, 28, 71, 70, 63, 47 yellow Area: 430
 Rectangle 79, 21, 97, 44 orange Area: 414
 Triangle 94, 93, 64, 63, 29, 1 blue Area: 405
+Rectangle 77, 72, 90, 103 orange Area: 403
 Triangle 38, 36, 21, 19, 96, 47 blue Area: 399.5
 Triangle 81, 27, 59, 97, 93, 25 yellow Area: 398
 Triangle 49, 94, 27, 52, 59, 77 green Area: 397
@@ -672,9 +836,14 @@ Circle 23, 89, 11 green Area: 380.133
 Circle 81, 15, 11 indigo Area: 380.133
 Circle 19, 50, 11 blue Area: 380.133
 Circle 65, 60, 11 indigo Area: 380.133
+Circle 22, 21, 11 red Area: 380.133
+Circle 10, 19, 11 red Area: 380.133
 Rectangle 12, 36, 50, 46 orange Area: 380
 Triangle 43, 55, 85, 34, 75, 21 orange Area: 378
+Rectangle 7, 53, 32, 68 green Area: 375
 Rectangle 12, 67, 23, 101 green Area: 374
+Rectangle 2, 83, 20, 103 yellow Area: 360
+Triangle 80, 89, 63, 33, 66, 85 green Area: 358
 Rectangle 98, 92, 119, 109 blue Area: 357
 Rectangle 55, 11, 87, 22 blue Area: 352
 Rectangle 57, 5, 65, 49 red Area: 352
@@ -694,8 +863,11 @@ Circle 74, 36, 10 red Area: 314.159
 Circle 83, 23, 10 blue Area: 314.159
 Triangle 82, 48, 54, 40, 81, 70 violet Area: 312
 Rectangle 96, 23, 109, 47 red Area: 312
+Triangle 60, 31, 65, 11, 13, 96 blue Area: 307.5
 Rectangle 25, 89, 34, 123 orange Area: 306
+Rectangle 27, 52, 61, 61 blue Area: 306
 Triangle 55, 55, 6, 63, 2, 76 green Area: 302.5
+Rectangle 86, 60, 93, 103 orange Area: 301
 Rectangle 92, 64, 117, 76 blue Area: 300
 Rectangle 27, 51, 77, 57 yellow Area: 300
 Triangle 27, 50, 11, 63, 94, 33 orange Area: 299.5
@@ -706,13 +878,21 @@ Triangle 97, 93, 3, 8, 74, 66 green Area: 291.5
 Triangle 24, 71, 58, 20, 48, 18 orange Area: 289
 Rectangle 94, 30, 112, 46 red Area: 288
 Rectangle 21, 95, 34, 117 orange Area: 286
+Triangle 3, 32, 27, 50, 85, 70 violet Area: 282
+Triangle 0, 34, 91, 57, 19, 45 violet Area: 282
+Rectangle 87, 88, 95, 122 blue Area: 272
 Triangle 34, 80, 79, 32, 74, 49 violet Area: 262.5
+Rectangle 84, 55, 110, 65 green Area: 260
 Circle 1, 53, 9 yellow Area: 254.469
 Circle 48, 85, 9 red Area: 254.469
 Circle 63, 79, 9 indigo Area: 254.469
+Circle 63, 81, 9 indigo Area: 254.469
+Triangle 52, 17, 93, 11, 41, 31 green Area: 254
 Triangle 53, 61, 58, 91, 63, 20 violet Area: 252.5
+Rectangle 95, 48, 113, 62 red Area: 252
 Triangle 68, 70, 63, 49, 34, 25 violet Area: 244.5
 Triangle 60, 57, 0, 36, 13, 33 indigo Area: 226.5
+Triangle 37, 32, 94, 93, 10, 11 green Area: 225
 Triangle 17, 93, 64, 78, 56, 71 yellow Area: 224.5
 Rectangle 92, 13, 123, 20 blue Area: 217
 Triangle 64, 94, 63, 58, 52, 92 green Area: 215
@@ -725,23 +905,30 @@ Circle 45, 61, 8 yellow Area: 201.062
 Circle 57, 25, 8 indigo Area: 201.062
 Rectangle 19, 10, 31, 26 green Area: 192
 Triangle 31, 96, 23, 96, 44, 50 orange Area: 184
+Rectangle 4, 67, 12, 90 red Area: 184
 Triangle 32, 58, 7, 81, 62, 16 red Area: 180
 Rectangle 72, 19, 117, 23 red Area: 180
 Rectangle 84, 42, 100, 53 yellow Area: 176
+Rectangle 57, 90, 76, 99 orange Area: 171
 Rectangle 31, 76, 43, 90 green Area: 168
+Rectangle 3, 98, 17, 110 violet Area: 168
 Rectangle 98, 77, 103, 110 violet Area: 165
+Rectangle 84, 61, 89, 94 red Area: 165
+Rectangle 79, 64, 85, 91 indigo Area: 162
 Triangle 34, 7, 83, 0, 59, 10 indigo Area: 161
 Triangle 18, 57, 85, 29, 15, 63 red Area: 159
 Triangle 24, 84, 20, 15, 19, 77 red Area: 158.5
 Triangle 33, 10, 92, 70, 70, 53 yellow Area: 158.5
 Rectangle 55, 24, 72, 33 indigo Area: 153
 Triangle 22, 30, 30, 54, 6, 19 orange Area: 148
+Triangle 11, 84, 70, 13, 70, 8 orange Area: 147.5
 Rectangle 98, 52, 105, 73 green Area: 147
 Triangle 7, 66, 28, 62, 63, 69 red Area: 143.5
 Rectangle 6, 60, 17, 73 indigo Area: 143
 Triangle 41, 9, 58, 35, 65, 61 indigo Area: 130
 Triangle 21, 54, 6, 50, 3, 32 violet Area: 129
 Triangle 62, 48, 45, 52, 70, 31 yellow Area: 128.5
+Rectangle 72, 87, 80, 103 yellow Area: 128
 Rectangle 5, 14, 8, 56 indigo Area: 126
 Triangle 58, 5, 92, 60, 51, 1 violet Area: 124.5
 Rectangle 53, 73, 84, 77 red Area: 124
@@ -764,19 +951,25 @@ Rectangle 52, 39, 101, 41 red Area: 98
 Rectangle 16, 47, 63, 49 violet Area: 94
 Rectangle 81, 10, 90, 20 red Area: 90
 Rectangle 16, 61, 31, 67 indigo Area: 90
+Rectangle 64, 91, 73, 101 violet Area: 90
 Rectangle 69, 9, 77, 20 blue Area: 88
 Triangle 34, 70, 46, 87, 21, 65 indigo Area: 80.5
 Circle 98, 39, 5 blue Area: 78.5398
 Circle 5, 14, 5 green Area: 78.5398
+Circle 2, 10, 5 yellow Area: 78.5398
 Triangle 96, 6, 81, 43, 72, 55 red Area: 76.5
 Triangle 6, 28, 93, 26, 26, 26 yellow Area: 67
 Rectangle 63, 35, 70, 44 orange Area: 63
 Triangle 26, 68, 6, 99, 55, 29 indigo Area: 59.5
+Rectangle 64, 28, 92, 30 green Area: 56
+Rectangle 87, 40, 96, 46 violet Area: 54
 Triangle 34, 38, 64, 81, 40, 50 violet Area: 51
 Circle 60, 42, 4 orange Area: 50.2655
 Circle 21, 25, 4 indigo Area: 50.2655
 Rectangle 66, 49, 91, 51 indigo Area: 50
+Rectangle 20, 90, 22, 115 blue Area: 50
 Triangle 87, 10, 81, 58, 86, 33 indigo Area: 45
+Rectangle 80, 36, 83, 51 yellow Area: 45
 Triangle 64, 0, 18, 17, 23, 17 orange Area: 42.5
 Rectangle 75, 84, 81, 91 violet Area: 42
 Rectangle 63, 43, 103, 44 indigo Area: 40
@@ -784,10 +977,14 @@ Rectangle 20, 33, 29, 37 orange Area: 36
 Rectangle 43, 79, 50, 84 violet Area: 35
 Triangle 85, 0, 85, 67, 84, 88 yellow Area: 33.5
 Rectangle 0, 46, 2, 62 violet Area: 32
+Rectangle 93, 17, 95, 33 red Area: 32
 Circle 18, 88, 3 yellow Area: 28.2743
 Circle 34, 75, 3 blue Area: 28.2743
 Circle 22, 40, 3 violet Area: 28.2743
 Circle 92, 51, 3 violet Area: 28.2743
+Circle 92, 93, 3 red Area: 28.2743
+Circle 43, 44, 3 orange Area: 28.2743
+Rectangle 69, 11, 78, 14 yellow Area: 27
 Rectangle 45, 17, 71, 18 yellow Area: 26
 Triangle 63, 59, 19, 79, 56, 61 indigo Area: 26
 Triangle 47, 31, 53, 33, 39, 20 yellow Area: 25
@@ -799,7 +996,10 @@ Rectangle 5, 70, 12, 72 blue Area: 14
 Circle 96, 87, 2 blue Area: 12.5664
 Circle 39, 84, 2 orange Area: 12.5664
 Circle 44, 64, 2 orange Area: 12.5664
+Rectangle 36, 48, 45, 49 violet Area: 9
+Rectangle 98, 57, 99, 64 indigo Area: 7
 Circle 4, 58, 1 orange Area: 3.14159
 Circle 7, 38, 1 orange Area: 3.14159
 Circle 61, 24, 1 red Area: 3.14159
 Circle 3, 20, 1 blue Area: 3.14159
+Triangle 11, 44, 8, 59, 5, 72 red Area: 3

@@ -170,22 +170,32 @@ private:
         
         for (int i = 0; i < count; ++i)
         {
-            int shapeType = rand() % 3;
+            int type = rand() % 3;
             const string &color = COLOR_NAMES[rand() % COLOR_NAMES.size()];
             
-            if (shapeType == 0)
+            if (type == 0)
             {
-                int x = rand() % 100, y = rand() % 100, radius = rand() % 50 + 1;
+                int x = rand() % 100;
+                int y = rand() % 100;
+                int radius = rand() % 50 + 1;
                 file << "Circle " << x << " " << y << " " << radius << " " << color << "\n";
             }
-            else if (shapeType == 1)
+            else if (type == 1)
             {
-                int x1 = rand() % 100, y1 = rand() % 100, x2 = x1 + rand() % 50 + 1, y2 = y1 + rand() % 50 + 1;
+                int x1 = rand() % 100;
+                int y1 = rand() % 100;
+                int x2 = x1 + rand() % 50 + 1;
+                int y2 = y1 + rand() % 50 + 1;
                 file << "Rectangle " << x1 << " " << y1 << " " << x2 << " " << y2 << " " << color << "\n";
             }
             else
             {
-                int x1 = rand() % 100, y1 = rand() % 100, x2 = rand() % 100, y2 = rand() % 100, x3 = rand() % 100, y3 = rand() % 100;
+                int x1 = rand() % 100;
+                int y1 = rand() % 100;
+                int x2 = rand() % 100;
+                int y2 = rand() % 100;
+                int x3 = rand() % 100;
+                int y3 = rand() % 100;
                 file << "Triangle " << x1 << " " << y1 << " " << x2 << " " << y2 << " " << x3 << " " << y3 << " " << color << "\n";
             }
         }
@@ -218,19 +228,19 @@ private:
             if (object)
             {
                 object->read_parameters(file);
-                string colorName;
-                file >> colorName;
+                string color_name;
+                file >> color_name;
                 
-                size_t colorIndex = 0;
+                size_t color_index = 0;
                 for (size_t i = 0; i < COLOR_NAMES.size(); ++i)
                 {
-                    if (COLOR_NAMES[i] == colorName)
+                    if (COLOR_NAMES[i] == color_name)
                     {
-                        colorIndex = i;
+                        color_index = i;
                         break;
                     }
                 }
-                object->color = static_cast<Color>(colorIndex);
+                object->color = static_cast<Color>(color_index);
                 object->area = object->calculate_area();
                 objects.push_back(object);
             }
