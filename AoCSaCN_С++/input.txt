@@ -1,0 +1,100 @@
+Circle 20 44 21 indigo
+Circle 3 85 37 indigo
+Rectangle 45 43 52 69 violet
+Rectangle 6 50 31 72 orange
+Circle 58 76 36 blue
+Rectangle 83 52 90 90 red
+Rectangle 54 56 95 76 green
+Rectangle 46 44 81 67 violet
+Triangle 53 11 25 80 57 52 indigo
+Rectangle 18 89 31 103 red
+Rectangle 14 22 55 72 blue
+Circle 98 56 50 green
+Triangle 37 21 98 51 94 12 violet
+Circle 11 98 34 yellow
+Rectangle 25 57 58 75 orange
+Triangle 63 37 26 42 0 61 blue
+Rectangle 81 63 98 83 indigo
+Triangle 69 59 53 30 47 98 green
+Rectangle 83 52 93 57 green
+Rectangle 48 53 68 68 orange
+Rectangle 90 93 121 100 green
+Triangle 49 68 51 68 81 23 orange
+Circle 13 90 8 green
+Circle 29 88 44 orange
+Circle 63 36 31 violet
+Triangle 75 29 60 82 91 80 blue
+Rectangle 30 26 54 56 red
+Rectangle 92 69 96 89 blue
+Triangle 53 95 74 76 60 89 red
+Triangle 90 63 78 13 13 84 violet
+Circle 68 25 30 orange
+Rectangle 70 66 120 95 orange
+Circle 48 25 35 orange
+Triangle 64 36 62 18 53 17 yellow
+Triangle 17 74 34 76 12 2 red
+Circle 31 59 46 indigo
+Circle 22 24 6 indigo
+Circle 21 79 36 orange
+Triangle 42 8 76 79 81 59 blue
+Triangle 1 76 43 77 90 33 green
+Circle 26 25 40 violet
+Rectangle 66 79 80 98 red
+Circle 31 50 39 green
+Rectangle 25 62 48 73 orange
+Rectangle 20 83 60 111 yellow
+Triangle 13 90 33 85 16 55 indigo
+Triangle 65 55 60 69 96 3 green
+Triangle 65 50 95 96 5 81 red
+Rectangle 26 81 41 113 yellow
+Rectangle 82 80 94 115 blue
+Circle 28 50 15 blue
+Triangle 14 38 78 32 76 93 yellow
+Rectangle 35 52 51 86 green
+Circle 70 71 5 blue
+Circle 81 85 22 indigo
+Triangle 57 59 25 95 91 7 blue
+Triangle 97 32 67 77 12 46 red
+Triangle 44 13 18 95 48 65 violet
+Triangle 77 54 28 99 35 45 blue
+Rectangle 59 86 102 99 blue
+Rectangle 29 29 35 55 orange
+Triangle 45 84 78 34 92 47 yellow
+Rectangle 48 30 70 39 violet
+Circle 18 15 43 red
+Triangle 96 15 57 88 3 36 green
+Triangle 76 69 11 32 90 97 yellow
+Circle 19 36 26 indigo
+Rectangle 64 68 89 99 green
+Triangle 92 8 45 65 79 75 yellow
+Circle 67 25 26 indigo
+Rectangle 40 33 69 79 indigo
+Circle 55 56 6 green
+Circle 68 45 43 blue
+Triangle 23 4 61 47 38 90 green
+Triangle 66 59 82 40 94 56 indigo
+Rectangle 93 1 104 26 indigo
+Rectangle 7 22 21 34 yellow
+Circle 93 48 2 violet
+Triangle 25 24 20 43 91 41 red
+Triangle 90 90 88 18 15 43 violet
+Rectangle 93 79 142 93 blue
+Rectangle 9 83 28 131 violet
+Rectangle 37 29 82 51 violet
+Triangle 84 71 50 32 70 85 green
+Triangle 14 53 35 83 90 91 green
+Circle 71 7 27 indigo
+Rectangle 11 17 36 61 blue
+Circle 20 55 31 green
+Rectangle 2 43 47 69 violet
+Circle 43 51 28 violet
+Circle 18 69 33 indigo
+Rectangle 58 66 73 79 green
+Circle 33 86 7 indigo
+Rectangle 33 83 50 124 green
+Triangle 22 93 59 70 10 97 violet
+Triangle 35 40 61 96 75 28 red
+Rectangle 44 86 78 104 indigo
+Rectangle 2 61 35 103 blue
+Triangle 86 31 51 43 57 69 violet
+Triangle 20 57 14 72 16 77 blue
