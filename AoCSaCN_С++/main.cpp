@@ -5,8 +5,9 @@
 #include <cmath>
 #include <limits>
 #include <ctime>
-#include <sys/stat.h>
+#include <stdlib.h>
 #include <cstdlib>
+#include <sys/stat.h>
 
 #define DELIM "\n"
 
@@ -115,28 +116,29 @@ class Program
 public:
     static void run()
     {
-        srand(static_cast<unsigned>(time(nullptr)));
-        int is_sorted = 0;
+        clock_t start_time = clock();
+        //srand(static_cast<unsigned>(time(nullptr)));
+        //int is_sorted = 0;
         int count = get_int("Enter the number of shapes to generate: ", 1, INT_MAX);
         generate_file("input.txt", count);
-
-        vector<Object*> objects = read_objects("input.txt");
         
+        vector<Object*> objects = read_objects("input.txt");
+        vector<Object*> sorted_objects = objects;
         int direction = get_int("Choose sorting order (1 for ascending, 0 for descending): ", 0, 1);
-        //copy_file("input.txt", "output.txt");
-        write_objects("output.txt", objects, is_sorted);
-        bubble_sort(objects, direction);
-        is_sorted = 1;
-        //copy_file("input.txt", "output.txt");
-        write_objects("output.txt", objects, is_sorted);
-        write_statistics("stat.txt", objects);
-
+        write_objects("output.txt", objects, 0);
+        bubble_sort(sorted_objects, direction);
+        //is_sorted = 1;
+        write_objects("output.txt", sorted_objects, 1);
+        clock_t end_time = clock();
+        write_statistics("stat.txt", objects, start_time, end_time, __FILE__);
+        
         for (size_t i = 0; i < objects.size(); ++i)
         {
             delete objects[i];
+            delete sorted_objects[i];
         }
     }
-
+    
 private:
     static int get_int(const string &prompt, int min, int max)
     {
@@ -158,32 +160,6 @@ private:
         }
         return number;
     }
-
-    static void copy_file (const string &input, const string &output)
-    {
-
-        ifstream ini_file(input);
-        ofstream out_file(output);
-        string line;
-        
-            if (ini_file && out_file)
-            {
-                //getline(ini_file, line);
-                while (getline(ini_file, line))
-                {
-                    out_file << line << "\n";
-                }
-                cout << "Copy Finished \n";
-            }
-            else
-            {
-               
-                printf("Cannot read File");
-            }
-        
-            ini_file.close();
-            out_file.close();
-    }
     
     static void generate_file(const string &filename, int count)
     {
@@ -191,12 +167,12 @@ private:
         if (!file) {
             throw runtime_error("Failed to open file for generation");
         }
-
+        
         for (int i = 0; i < count; ++i)
         {
             int shapeType = rand() % 3;
             const string &color = COLOR_NAMES[rand() % COLOR_NAMES.size()];
-
+            
             if (shapeType == 0)
             {
                 int x = rand() % 100, y = rand() % 100, radius = rand() % 50 + 1;
@@ -214,7 +190,7 @@ private:
             }
         }
     }
-
+    
     static vector<Object*> read_objects(const string &filename)
     {
         ifstream file(filename);
@@ -238,13 +214,13 @@ private:
             {
                 object = new Triangle();
             }
-
+            
             if (object)
             {
                 object->read_parameters(file);
                 string colorName;
                 file >> colorName;
-
+                
                 size_t colorIndex = 0;
                 for (size_t i = 0; i < COLOR_NAMES.size(); ++i)
                 {
@@ -261,7 +237,7 @@ private:
         }
         return objects;
     }
-
+    
     static void bubble_sort(vector<Object*> &objects, int direction)
     {
         for (size_t i = 0; i < objects.size() - 1; ++i)
@@ -278,51 +254,34 @@ private:
             }
         }
     }
-
+    
     //static void writeObjects(const string &filename, const vector<Object*> &objects) {
     static void write_objects(const string &filename, const vector<Object*> &objects, int flag)
     {
-        ofstream file(filename);
-        if (!file)
+        ofstream file;
+        if (flag == 0)
         {
-            throw runtime_error("Failed to open output file");
-        }
-        
-        file << "Number of objects: " << objects.size() << "\n\n";
-        file << "Initial data:\n";
-        
-        //if (flag == 0)
-        //{
-        for (size_t i = 0; i < objects.size(); ++i)
-        {
-            file << objects[i]->get_type() << " ";
-            objects[i]->write_parameters(file);
-            file << " " << COLOR_NAMES[static_cast<int>(objects[i]->color)] << "\n";
-        }
-        
-        /*
-        for (int i = 0; i < objects.size(); i++)
-        {
-            if (objects[i]->getType() == "Circle")
+            file.open(filename, ios::out);
+            if (!file)
             {
-                objects[i]->writeParameters(file);
-                file << " " << COLOR_NAMES[static_cast<int>(objects[i]->color)] << "\n";
+                throw runtime_error("Failed to open output file");
             }
-            else if (objects[i]->getType() == "Rectangle")
+            file << "Number of objects: " << objects.size() << "\n\n";
+            file << "Initial data:\n";
+            for (size_t i = 0; i < objects.size(); ++i)
             {
-                objects[i]->writeParameters(file);
-                file << " " << COLOR_NAMES[static_cast<int>(objects[i]->color)] << "\n";
-            }
-            else if (objects[i]->getType() == "Triangle")
-            {
-                objects[i]->writeParameters(file);
+                file << objects[i]->get_type() << " ";
+                objects[i]->write_parameters(file);
                 file << " " << COLOR_NAMES[static_cast<int>(objects[i]->color)] << "\n";
             }
         }
-         */
-        //}
-        if (flag == 1)
+        else if (flag == 1)
         {
+            file.open(filename, ios::app);
+            if (!file)
+            {
+                throw runtime_error("Failed to open output file");
+            }
             file << "\nSorted data:\n";
             for (size_t i = 0; i < objects.size(); ++i)
             {
@@ -332,17 +291,44 @@ private:
             }
         }
     }
+
     
-    
-    static void write_statistics(const string &filename, const vector<Object*> &objects) {
+    static void write_statistics(const string &filename, const vector<Object*> &objects, clock_t start, clock_t end, const string &program_filename)
+    {
         ofstream file(filename);
         if (!file)
         {
             throw runtime_error("Failed to open statistics file");
         }
-
-        file << "Execution time: simulated\n";
-        file << "Number of objects processed: " << objects.size() << "\n";
+        struct stat st;
+        if (stat(program_filename.c_str(), &st) != 0)
+        {
+            throw runtime_error("Failed to retrieve program file statistics");
+        }
+        file << "Execution time: " << (end - start) * 1000 / CLOCKS_PER_SEC << " ms\n";
+        file << "Program size: " << st.st_size << " bytes\n";
+        
+        ifstream prog_file(program_filename);
+        if (prog_file)
+        {
+            int lines = 0, characters = 0;
+            string line;
+            while (getline(prog_file, line))
+            {
+                lines++;
+            }
+            prog_file.clear();
+            prog_file.seekg(0, ios::beg);
+            char c;
+            while (prog_file.get(c))
+            {
+                characters++;
+            }
+            file << "Lines of code: " << lines << "\n";
+            file << "Characters in code: " << characters << "\n";
+            file << "The approximate time spent on writing and debugging the program is 5 hours, learning the syntax for 2 hours.\n";
+        }
+        file.close();
     }
 };
 
